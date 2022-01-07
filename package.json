@@ -1,0 +1,15 @@
+{
+  "name": "homebridge-log-cleaner",
+  "version": "0.0.1",
+  "description": "Clears Homebridge log with specified period",
+  "license": "the most strict license",
+  "keywords": [
+    "homebridge-plugin",
+    "homebrige-log-clener"
+  ],
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=0.4.8"
+  },
+  "dependencies": {}
+}
