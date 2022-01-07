@@ -26,7 +26,7 @@ This accessory behaves like a fan, rotation speed is a percentage value of curre
 
 To force clean the log file, just tap on a fan.
 
-##Instalation:
+## Instalation:
 ````
 npm i homebridge-log-cleaner
 ````
