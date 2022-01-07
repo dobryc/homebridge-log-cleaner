@@ -25,3 +25,9 @@ This homebridge plugin automaticly clears the Homebridge.log file after a certai
 This accessory behaves like a fan, rotation speed is a percentage value of current log size to your max log size.
 
 To force clean the log file, just tap on a fan.
+
+##Instalation:
+````
+npm i homebridge-log-cleaner
+````
+...or use Homebridge built-in search
