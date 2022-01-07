@@ -84,7 +84,7 @@ class LogCleaner {
     updateUI = function() {
         setTimeout(() => {
             this.cleaner.getCharacteristic(Characteristic.On).updateValue(true);
-            this.cleaner.getCharacteristic(Characteristic.RotationSpeed).updateValue(this.currentLogSize.toFixed(2));
+            this.cleaner.getCharacteristic(Characteristic.RotationSpeed).updateValue(this.currentLogSize / this.maxLogSizeInMb * 100);
         }, 100);
     }
 
