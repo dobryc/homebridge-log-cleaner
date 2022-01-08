@@ -1,7 +1,7 @@
 {
   "name": "homebridge-log-cleaner",
   "version": "0.0.1",
-  "description": "Homebridge plugin for automatic log cleaning",
+  "description": "Homebridge plugin for automatic Homebridge log cleaning",
   "main": "index.js",
   "engines": {
     "node": ">=12.9.0",
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "log"
+    "log",
+    "cleaner"
   ],
   "author": "ivdobryakov",
   "funding": {
@@ -18,8 +19,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "miio": "^0.15.6",
-    "mkdirp": "^0.5.1"
   },
   "repository": {
     "type": "git",
@@ -29,4 +28,3 @@
     "url": "https://github.com/dobryc/homebridge-log-cleaner/issues"
   },
   "homepage": "https://github.com/dobryc/homebridge-log-cleaner.git#readme"
-}
